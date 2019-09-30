@@ -1,0 +1,18 @@
+.IngredientsMeasures {
+  width: 350px;
+  padding: 16px;
+  padding-top: 30px;
+  text-align: left;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+.IngredientsMeasures ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.IngredientsMeasures li {
+  margin-bottom: 15px;
+}

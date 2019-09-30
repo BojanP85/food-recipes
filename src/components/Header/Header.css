@@ -1,0 +1,52 @@
+.Headers {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.Header1 {
+  padding-top: 120px;
+  margin-left: 50px;
+  width: 20%;
+}
+
+.Header1 button {
+  margin-top: 35px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  color: white;
+  background-color: orange;
+  border: 0px;
+  cursor: pointer;
+}
+
+.Header1 button:hover,
+.Header1 button:active {
+  background-color: #fa923f;
+}
+
+.Header2 {
+  width: 650px;
+}
+
+@media(max-width: 1190px) {
+  .Headers {
+    display: block;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .Header1 {
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .Header1,
+  .Header2 {
+    width: 100%;
+  }
+}

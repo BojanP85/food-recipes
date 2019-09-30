@@ -1,0 +1,47 @@
+.AboutUs {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.AboutUs1 {
+  padding-top: 15px;
+  margin-left: 50px;
+  width: 30%;
+}
+
+.AboutUs1 div {
+  width: 18%;
+  height: 2px;
+  background-color: black;
+}
+
+.AboutUs2 {
+  width: 650px;
+}
+
+@media(max-width: 1350px) {
+  .AboutUs {
+    display: block;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .AboutUs1 {
+    margin-left: 0;
+  }
+
+  .AboutUs1 div {
+    width: 80px;
+  }
+
+  .AboutUs1,
+  .AboutUs2 {
+    width: 100%;
+  }
+}

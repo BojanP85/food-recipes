@@ -1,0 +1,11 @@
+.AboutUsImage {
+  margin-right: 50px;  
+  text-align: center;
+  padding: 8px;
+  height: 100%;
+}
+
+.AboutUsImage img {
+  height: 100%;
+  width: 100%;
+}

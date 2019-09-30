@@ -1,0 +1,17 @@
+.FoodImage {
+  margin-right: 50px;  
+  text-align: center;
+  padding: 8px;
+  height: 100%;
+}
+
+.FoodImage img {
+  height: 100%;
+  width: 100%;
+}
+
+@media(max-width: 499px) {
+  .FoodImage img{
+    width: 300px;
+  }
+}
